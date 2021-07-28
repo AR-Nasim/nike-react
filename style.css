@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #FFF9F4;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 80px;
+    line-height: 80px;
+}
+h2{
+    font-size: 48px;
+    line-height: 48px;
+}
+h3{
+    font-size: 36px;
+    line-height: 36px;
+}
+h5{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+p{
+    color: #3E3E3E;
+    line-height: 26px;
+
+}
+span{
+    color: #FA804C;
+}
+.nav-item a{
+    font-weight: 500;
+    color: #3C3C3C;
+}
+.button{
+    padding: 18px 33px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white;
+}
+.title{
+    margin: 50px 0;
+}
+.price{
+    font-weight:900;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+.card-box{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+#contact{
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px){
+    #contact{
+        text-align: center;
+    }
+    .navbar-brand img{
+        width: 230px;
+    }
+}
